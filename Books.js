@@ -20,6 +20,6 @@ app.use(
   })
 );
 
-app.listen(3813, () => {
+app.listen(port, () => {
   console.log("Server running at http://localhost:/graphql " + port);
 });
